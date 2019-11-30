@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'Gradle-MultiModule'
+include 'app'
+include 'domain'

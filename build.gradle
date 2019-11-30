@@ -12,10 +12,9 @@ subprojects {
 
     test {
         useJUnitPlatform()
-        
+
         testLogging {
             exceptionFormat = 'full'
         }
     }
-
 }

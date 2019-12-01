@@ -3,6 +3,10 @@ subprojects {
     version '1.0.0'
 
     apply plugin: 'java'
+    apply plugin: 'jacoco'
+
+    //automatically run the code coverage report. Generated report at domain/build/reports/jacoco/test/html/index.html
+    test.finalizedBy jacocoTestReport
 
     sourceCompatibility = 1.11
 
